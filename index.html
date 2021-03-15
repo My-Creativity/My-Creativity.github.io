@@ -15,12 +15,8 @@
 </font>
 </p>
 
-<!DOCTYPE html>
-<html>
-<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
 
 #myImg {
   border-radius: 5px;
@@ -108,8 +104,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
 }
 </style>
-</head>
-<body>
 
 <h2>Image Modal</h2>
 <p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
@@ -123,10 +117,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </div>
 
 <script>
-// Get the modal
 var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -136,14 +128,7 @@ img.onload = function(){
   captionText.innerHTML = this.alt;
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
 img.onclick = function() { 
   modal.style.display = "none";
 }
 </script>
-
-</body>
-</html>
