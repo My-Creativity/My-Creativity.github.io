@@ -1,0 +1,75 @@
+#logo{
+    float:left;
+    color: darkred;
+    margin-top: -20;
+    letter-spacing: -1;
+    font-family:sans-serif;
+}
+#kapbretaro{
+    position:relative;
+    text-align: center;
+    left: -50;
+}
+.but{
+    clear:both;
+    height:35;
+    width:35;
+    text-align: center;
+    background-color: lightgray;
+    border-width: 1;
+    color: white;
+    font-size: 25;
+    position: relative;
+    text-align: center;
+    vertical-align:middle;
+}
+.cxebut{
+    clear:both;
+    height:35;
+    width:35;
+    text-align: center;
+    background-color: lightgray;
+    border-width: 1;
+    color: white;
+    font-size: 25;
+    position: relative;
+    text-align: center;
+    vertical-align:middle;
+}
+#cxefmenuo{
+    clear:both;
+    text-align: center; position: relative;
+    float:left;
+    top: -25;
+}
+#novafisxo{
+    clear:both;
+    position: relative;
+    top: 50;  
+}
+#afisxareo{
+    width:75%;
+}
+#aldonibildon{
+    clear:both;
+    height:20;
+    width:20;
+    text-align: center;
+    background-color: white;
+    border-width: 1;
+    color: black;
+    font-size: 15;
+    position: relative;
+    padding: 0px;
+    vertical-align:middle;
+}
+
+.petero{
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200;
+  height: 10%;
+}
